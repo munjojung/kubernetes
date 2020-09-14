@@ -7,9 +7,9 @@ metadata:
 spec:
   storageClassName: manual
   capacity:
-    storage: 1Gi
+    storage: 20Gi
   accessModes:
     - ReadWriteMany
   nfs:
     server: <nfs server ip>
-    path: "/srv/nfs/kubedata"
+    path: "/data/nfs/kubedata"
